@@ -4,13 +4,13 @@ variable "location" {
 }
 variable "address_space" {
   type = list
-  default=["192.168.0.0/16"]
+  default=["10.0.0.0/16"]
 }
 variable "resource_name" {
   type = string
-  default="inga"
+  default="inga2222"
   }
   variable "vnet_name" {
   type = string
-  default="thala123"
+  default="thal22222a123"
     }
