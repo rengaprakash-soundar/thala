@@ -10,7 +10,7 @@ variable "resource_name" {
   type = string
   default="thala"
   }
-  variable "vner_name" {
+  variable "vnet_name" {
   type = string
   default="thala123"
     }
