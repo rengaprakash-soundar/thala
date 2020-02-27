@@ -8,7 +8,7 @@ variable "address_space" {
 }
 variable "resource_name" {
   type = string
-  default="thala"
+  default="inga"
   }
   variable "vnet_name" {
   type = string
