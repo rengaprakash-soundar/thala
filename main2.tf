@@ -12,7 +12,7 @@ resource "azurerm_resource_group" "example" {
 # Create a virtual network within the resource group
 resource "azurerm_virtual_network" "example" {
   name                = data.azurerm_virtual_network.example.name
-  resource_group_name = data.azurerm_resource_group.example.name
+  resource_group_name = data.azurerm_virtual_network.example.resource_group_name
   location            = var.location
   address_space       =var.address_space
 }
