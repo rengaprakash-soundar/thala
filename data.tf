@@ -3,5 +3,5 @@ data "azurerm_resource_group" "example" {
 }
 data "azurerm_virtual_network" "example" {
   name                = "production"
-  resource_group_name = data.azurerm_resource_group.example.name
+  resource_group_name = "dsrg_test"
 }
